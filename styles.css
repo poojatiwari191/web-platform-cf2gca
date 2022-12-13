@@ -31,7 +31,8 @@ nav {
 
 .nav-list li{
   list-style:none;
-  padding:30px 30px;
+  padding:30px 30px;sa       /uu
+  background-color:rgba(red, green, blue, alpha)
   
 }
 nav-list li a {
@@ -50,13 +51,10 @@ nav-list li a {
 
  
 
-main {
-  padding: 1rem;
-}
 .rightnav{
   width:100;
   text-align:right;
- color:blue
+ 
 }
 .Container{
   background-color: lightblue;
@@ -66,15 +64,33 @@ main {
   display:flex;
 }
 .Welcome{
-text-align: center;
+  font-size: 12px;
+  text-align: center;
+  background-color:rgb(187, 186, 186);
+
+}
+.Approval{
+  text-decoration: solid;
+  color:blue;
+  font-size: large;
+}
+.appovallists{
+  text-decoration: underline;
+  color:black;
+  
 }
 
 .timecardsummary{
  
-  height:90vh;
+  height:0px;
   width:80vw;
   color: blueviolet;
   display:flex;
+}
+.instructionsbox{
+  height:auto;
+  width:auto;
+  margin: 0%;
 }
 .instructions{
   height:40px;
