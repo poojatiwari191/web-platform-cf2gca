@@ -31,7 +31,7 @@ nav {
 
 .nav-list li{
   list-style:none;
-  padding:30px 30px;sa       /uu
+  padding:30px 30px;
   background-color:rgba(red, green, blue, alpha)
   
 }
@@ -79,30 +79,12 @@ nav-list li a {
   color:black;
   
 }
-
-.timecardsummary{
- 
-  height:0px;
-  width:80vw;
-  color: blueviolet;
-  display:flex;
-}
-.instructionsbox{
-  height:auto;
-  width:auto;
-  margin: 0%;
-}
-.instructions{
-  height:40px;
-  color:blueviolet;
-  width:40px;
-  font-size: 20px;
-  font-weight: bold;
-}
 .basics{
-  color:black;
-  width:20px;
+  margin:0%;
+  border:0%;
+  background-color: lightblue;
 }
+
 
 .projecthead{
   width:100px;
