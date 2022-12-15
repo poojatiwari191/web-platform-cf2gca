@@ -69,6 +69,9 @@ nav-list li a {
   background-color:rgb(187, 186, 186);
 
 }
+
+
+
 .Approval{
   text-decoration: solid;
   color:blue;
@@ -79,10 +82,55 @@ nav-list li a {
   color:black;
   
 }
-.basics{
-  margin:0%;
-  border:0%;
-  background-color: lightblue;
+.timecardinstructionbox{
+
+  text-decoration-color: solid;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: circle;
+}
+.container1{
+  border: 1px solid black;
+            width: 1000px;
+            height: 200px;
+            background-color:lightblue; 
+            border-radius: 10px; 
+            
+}
+
+.container2{
+  border: 1px solid black;
+            width: 1000px;
+            height: 200px;
+            background-color:white; 
+             
+}
+.Employeedetails{
+  width:98%;
+  min-width:98%;
+  max-width:98%;
+  height:25px;
+ 
+  overflow:hidden;
+  padding:1%;
+  margin:0;
+  background-color:lightgrey;
+}
+
+.AlldetailsofContainer2{
+  text-align: left;
+  display: grid;
+  justify-content: space-evenly;
+  height: 20px;
+}
+.Week{
+text-align: right;
+display: grid;
+justify-content: space-evenly;
+}
+
+.Text{
+  font-size: medium;
 }
 
 
@@ -92,16 +140,4 @@ nav-list li a {
   margin:2 10 20px;
 }
 
-.outertableborder{
-  width:100%;
-  border-style:solid;
-  border-width:1px;
-  border-collapse:collapse;
-}
-.innertableBorder{
-  font-size:15px;
-  font-weight:bold;
-  height:25px;
-  background-color:lightblue;
-  font-family:Arial,Helvetica,sans-serif;
-}
+
