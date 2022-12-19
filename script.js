@@ -1,13 +1,20 @@
-function selectYear(){
-  var d=new Date();
-  var currentYear=d.getFullYear();
-  var str="<option value='0'>Year</option>";
 
-  for(var i=0;i<10;i++){
-    str+="<option value="+parseInt(currentYear+i)+">"+parseInt(currentYear+i)+"</option>";
-  }
-  document.getElementById('Yearselection').Timecard.html=str;
-}
+    window.onload = function () {
+        //Reference the DropDownList.
+        var ddlYears = document.getElementById("ddlYears");
+ 
+        //Determine the Current Year.
+        var currentYear = (new Date()).getFullYear();
+ 
+        //Loop and add the Year values to DropDownList.
+        for (var i = 1950; i <= currentYear; i++) {
+            var option = document.createElement("OPTION");
+            option.innerHTML = i;
+            option.value = i;
+            ddlYears.appendChild(option);
+        }
+    };
+
 
 
 

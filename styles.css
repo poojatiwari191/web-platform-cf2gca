@@ -117,27 +117,72 @@ nav-list li a {
   background-color:lightgrey;
 }
 
-.AlldetailsofContainer2{
-  text-align: left;
-  display: grid;
-  justify-content: space-evenly;
-  height: 20px;
+td {
+  width: 100px;
+ 
+ 
+  padding: 5px;
 }
-.Week{
-text-align: right;
-display: grid;
-justify-content: space-evenly;
+
+.container3{
+  border: 1px solid black;
+            width: 1000px;
+            height: 200px;
+            background-color:white; 
+             
+}
+
+.projectdetails{
+  width:98%;
+  min-width:98%;
+  max-width:98%;
+  height:25px;
+ 
+  overflow:hidden;
+  padding:1%;
+  margin:0;
+  background-color:lightgrey;
 }
 
 .Text{
   font-size: medium;
 }
-
-
-.projecthead{
-  width:100px;
-  padding:20px;
-  margin:2 10 20px;
+.maintable,.projectid,.projectname{
+  border-collapse: collapse;
+  
 }
+.projectid{
+  border: 1px solid grey;
+   
+    text-align: left;
+  width: 200px;
+  
+  height:35px;
+}
+.projectname{
+  border: 1px solid grey;
+   
+    text-align: left;
+  width: 200px;
+  
+  height:35px;
+}
+.startdate{
+  border: 1px solid grey;
+   
+    text-align: left;
+  width: 200px;
+  
+  height:35px;
+}
+
+.period{
+  width:100;
+  text-align:right;
+ 
+}
+
+
+
 
 
